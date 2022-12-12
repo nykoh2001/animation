@@ -3,11 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import AppearAni from "./components/AppearAni";
+import OutInAni from "./components/OutInAni";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppearAni />
+    <OutInAni />
   </React.StrictMode>
 );
 

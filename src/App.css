@@ -37,7 +37,6 @@
   }
 }
 
-
 .Appear {
   opacity: 0;
   transform: translateY(40px);
@@ -46,4 +45,40 @@
 .Inview {
   opacity: 1;
   transform: none;
+}
+
+.From-Left {
+  transform: translateX(-100%);
+}
+
+.From-Left-Active {
+  transform: translateX(0);
+  transition: all 1s ease;
+}
+
+.From-Right {
+  transform: translateX(100%);
+}
+
+.From-Right-Active {
+  transform: translateX(0);
+  transition: all 1s ease;
+}
+
+.From-Up {
+  transform: translateY(-100%);
+}
+
+.From-Up-Active {
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+
+.From-Down {
+  transform: translateY(100%);
+}
+
+.From-Down-Active {
+  transform: translateX(0);
+  transition: all 1s ease;
 }
