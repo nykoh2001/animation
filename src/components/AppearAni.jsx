@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "../App.css";
 import { useInView } from "react-intersection-observer";
 import styled from "styled-components";
 
@@ -19,8 +18,8 @@ const AppearStyle = styled.div`
   box-sizing: border-box;
   margin: 55px;
   color: #fff;
-  transition: all 0.8s;
-  transition-delay: 0.15s;
+  transition: all 0.8s ease;
+  transition-delay: 0.2s;
 `;
 
 const Appear = ({ typo }) => {
