@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Appear {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.Inview {
+  opacity: 1;
+  transform: none;
+}
