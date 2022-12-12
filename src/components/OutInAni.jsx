@@ -18,6 +18,7 @@ const OutInStyle = styled.div`
   color: #fff;
   box-sizing: border-box;
   margin: 20px;
+  transition: all 0.5s ease;
 `;
 
 const OutIn = ({ typo }) => {
@@ -37,7 +38,7 @@ const OutIn = ({ typo }) => {
   );
 };
 
-const typos = ["left", "right", "up", "down"];
+const typos = ["up", "left", "right", "down"];
 
 const OutInAni = () => {
   return (
